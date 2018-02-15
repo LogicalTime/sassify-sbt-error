@@ -12,12 +12,14 @@ And see how the assets generated are different.
 
 
 The 1.1.1 yields some bad stuff like this:
+
 ï»¿/*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  .fa-search-plus:before{content:"ï€Ž"}.fa-search-minus:before{content:"ï€�"}.fa-power-off:before{content:"ï€‘"}.fa-signal:before{content:"ï€’"}.fa-gear:before,.fa-cog:before{content:"ï€“"}.fa-trash-o:before{content:"ï€”"}.fa-home:before{content:"ï€•"}.fa-file-o:before{content:"ï€–"}.fa-clock-o:before{content:"ï€—"}.fa-road:before{content:"ï€˜"}.fa-download:before{content:"ï€™"}.fa-arrow-circle-o-down:before{content:"ï€š"}
  
  The 0.13.16 yields some good stuff like this:
+ 
  /*!
   *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
   *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
