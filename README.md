@@ -24,3 +24,16 @@ The 1.1.1 yields some bad stuff like this:
   *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
   *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
   .fa-search-plus:before{content:""}.fa-search-minus:before{content:""}.fa-power-off:before{content:""}.fa-signal:before{content:""}.fa-gear:before,.fa-cog:before{content:""}.fa-trash-o:before{content:""}.fa-home:before{content:""}.fa-file-o:before{content:""}.fa-clock-o:before{content:""}.fa-road:before{content:""}.fa-download:before{content:""}.fa-arrow-circle-o-down:before{content:""}
+  
+  
+Fontawesome CSS for icons looks a little like this. Maybe this is a clue to the error?
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+   
+.fa-search-plus:before {
+  content: "\f00e";
+}
+.fa-search-minus:before {
+  content: "\f010";
+}
